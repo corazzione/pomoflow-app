@@ -1,0 +1,14 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <!-- Flame outer -->
+  <path d="M512 840C347 840 238 722 238 567C238 438 328 347 402 283C402 394 447 439 512 439C447 357 494 219 585 146C585 274 676 347 722 439C768 512 785 585 785 640C785 759 667 840 512 840Z" fill="white" fill-opacity="0.96"/>
+  <!-- Flame inner -->
+  <path d="M512 748C429 748 374 694 374 621C374 557 420 512 466 484C466 539 494 567 512 567C484 530 494 476 539 448C539 503 585 539 603 585C621 640 603 748 512 748Z" fill="#FF7535" fill-opacity="0.7"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B2B"/>
+      <stop offset="100%" stop-color="#E03A00"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "Pomoflow",
+  "version": "0.1.0",
+  "identifier": "com.pomoflow.app",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Pomoflow",
+        "width": 278,
+        "height": 392,
+        "minWidth": 278,
+        "minHeight": 392,
+        "maxWidth": 278,
+        "maxHeight": 392,
+        "resizable": false,
+        "fullscreen": false,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "center": true,
+        "shadow": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["msi", "nsis"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "publisher": "Markus Corazzione",
+    "copyright": "Copyright © 2025 Markus Corazzione",
+    "category": "Productivity",
+    "shortDescription": "A beautiful Pomodoro timer widget",
+    "longDescription": "Pomoflow is a minimal Pomodoro timer widget with dark and light themes, session tracking, and customizable durations."
+  }
+}
